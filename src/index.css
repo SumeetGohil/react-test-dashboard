@@ -1,0 +1,60 @@
+/* @import 'fortawesome/fontawesome-free/css/all.min.css'; */
+body {
+    margin: 0;
+}
+
+aside {
+    position: fixed;
+    top:0;
+    width: 50px;
+    transition: .5s;
+    height: 100%;
+    display: block;
+    background: #7a66b6;
+    box-shadow: 3px 0 15px 0 #cacaca;
+}
+
+aside.active {
+    width: 232px;
+}
+
+main {
+    transition: .5s;
+    margin-left: 50px;
+    padding-left: 40px;
+    overflow: hidden;
+}
+main.active {
+    margin-left: 232px;
+}
+
+main header {
+    width: 100%;
+    background: white;
+    color: #7a66b6;
+}
+
+.side-navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.side-navigation ul li {
+
+}
+.side-navigation ul li a img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    margin-top:5px;
+}
+
+.side-navigation ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: left;
+    color: white;
+    font-size: large;
+}
